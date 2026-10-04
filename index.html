@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Spotify</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <aside>
+        <h1>Meu Spotify</h1>
+
+        <button id="inicio">Início</button>
+        <input id="pesquisa" type="text" placeholder="Pesquisar música">
+        <button id="biblioteca">Biblioteca</button>
+    </aside>
+    
+<main>
+    <h2>Suas Músicas</h2>
+
+    <div id="Musicas"></div>
+</main>
+
+<footer>
+    <p id="NomeMusica">Nenhuma Musica</p>
+    <p id="NomeArtista">Nenhum Artista</p>
+
+    <button id="Anterior">⏮</button>
+    <button id="PlayPause">▶</button>
+    <button id="Proxima">⏭</button>
+
+    <input id="progresso" type="range" min="0" max="100" value="0">
+
+    <span id="tempo">0:00 / 0:00</span>
+    
+    <input id="volume" type="range" min="0" max="100" value="100">
+</footer>
+
+<script type="module" src="main.js"></script>
+
+</body>
+</html>
